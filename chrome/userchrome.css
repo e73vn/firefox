@@ -1,0 +1,37 @@
+/* Hide back/forward buttons */
+#back-button,
+#forward-button {
+    display: none !important;
+}
+
+/* Hide new tab button */
+#tabs-newtab-button,
+#new-tab-button {
+    display: none !important;
+}
+
+/* Hide tab close buttons */
+.tab-close-button {
+    display: none !important;
+}
+
+/* Center URL bar */
+#nav-bar-customization-target {
+    justify-content: center !important;
+}
+
+#urlbar-container {
+    flex: 0 1 900px !important;
+    max-width: 900px !important;
+    min-width: 400px !important;
+}
+
+/* Round URL bar */
+#urlbar-background {
+    border-radius: 14px !important;
+}
+
+/* Round tabs */
+.tabbrowser-tab .tab-background {
+    border-radius: 10px !important;
+}
