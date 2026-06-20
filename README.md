@@ -1,0 +1,2 @@
+# firefox
+firefox config wip
